@@ -15,10 +15,10 @@ const isNews = (news) => {
                     </h2>
                     <p>{data.description}</p>
                     <div className="card-actions justify-end">
-                        <div className="badge badge-inline">
+                        <div className="badge badge-outline">
                             {data.category}
                         </div>
-                        <div className="badge badge-outline">{data.author}</div>
+                        {/* <div className="badge badge-outline">{data.author}</div> */}
                     </div>
                 </div>
             </div>
